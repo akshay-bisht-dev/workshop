@@ -9,7 +9,7 @@ const Home = () => {
         <div className="home">
         <div className="home-data">
         <div className="home-para">
-          <p>hii There Welcome to my</p>
+          <p>hii There, Welcome to my</p>
         </div>
 
         <div className="home-head">
