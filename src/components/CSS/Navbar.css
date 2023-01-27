@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+header{
+    /* background-color: aqua; */
+    height: max-content;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 4rem;
+}
+.nav-1 .logo{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.nav-1 .logo span{
+    color: red;
+    font-size: 3rem;
+}
+.nav-1 .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-1 .social .social-icon{
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: black;
+}
+.nav-2{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.nav-2 .ul-list{
+    display: flex;
+}
+.nav-2 .ul-list .li-list a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border: 1px solid aquamarine;
+}
+.nav-2 .toggle-menu{
+    font-size: 2rem;
+    display: none;
+}
+.nav-3 {
+    height: 2rem;
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: repeat(2, 1fr);
+    background-color: yellow;
+    width: 100%;
+    place-items: center;
+}
+.nav-3 .header-headings{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-3 .dateAndTime{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:769px) {
+    .nav-2 .ul-list{
+        display: none;
+        position: relative;
+    }
+      .toggle-menu-none{
+        display: block;
+    }
+    .active .toggle-menu {
+        display: flex;
+        justify-content: right;
+        width: 100%;
+        padding: 0 120px;
+        font-size: 3rem;
+        color: white;
+        z-index: 999;
+    }
+    .active .ul-list {
+        background-color: #000;
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }    
+    .active .ul-list-res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .active .ul-list .li-list{
+        height: 50px;
+    }
+} */

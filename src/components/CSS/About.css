@@ -1,0 +1,66 @@
+.about{
+    height: 100vh;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img//bgaboutus.jpg');
+    display: flex;
+    /* padding: 20px 0; */
+    justify-content: center;
+    align-items: center;
+}
+.about-data{
+    height: 90vh;
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about .about-data .about-text {
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 60vh;
+    margin: auto;
+    border: 10px solid darkturquoise;
+}
+.about .about-data .about-text h1{
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    font-size: 5rem;
+    border-bottom: 2px solid red;
+    margin-bottom: 2rem;
+}
+.about .about-data .about-text .para-about{
+    text-align: justify;
+    width: 70%;
+    line-height: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.about .about-data .about-text .para-about-name {
+    display: flex;
+    justify-content: right;
+    width: 70%;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: cursive;
+    color: red;
+}
+.about .about-data .about-data-img{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-data .about-data-img img {
+    height: 60vh;
+    width: auto;
+    /* background: linear-gradient(to left, rgba(0,0,0,0), rgb(10, 10, 10), url(http://localhost:3000/static/media/aboutus.2c49255….jpg)); */
+    border: 10px solid chartreuse;
+}
